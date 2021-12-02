@@ -37,7 +37,7 @@ final class Stats {
     * @return the median of the number set
     */
 
-    public static double calculateMedian(Integer[] arrayOfNumbers) {
+    public static double calculateMedian(final Integer[] arrayOfNumbers) {
         final int numberOfNumbers = arrayOfNumbers.length;
         double medianFinal = 0;
         Arrays.sort(arrayOfNumbers);
@@ -60,7 +60,7 @@ final class Stats {
     * @return the mean of the number set
     */
 
-    public static double calculateMean(Integer[] arrayOfNumbers) {
+    public static double calculateMean(final Integer[] arrayOfNumbers) {
         // Process
         final int numberOfNumbers = arrayOfNumbers.length;
         int total = 0;
